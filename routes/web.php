@@ -7,7 +7,7 @@ use App\Http\Controllers\PaymentController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('rices');
+    return view('rices.index');
 });
 
 Route::get('/dashboard', function () {
